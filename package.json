@@ -1,0 +1,19 @@
+{
+  "name": "etlaala-hostinger-mcp",
+  "version": "4.7.0",
+  "private": true,
+  "type": "module",
+  "description": "Dedicated single-account Hostinger MCP bridge for Etlaala with direct filesystem tools",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "adm-zip": "0.5.16",
+    "express": "5.2.1",
+    "hostinger-api-mcp": "1.23.0"
+  }
+}
